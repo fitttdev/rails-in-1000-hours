@@ -17,7 +17,7 @@ ActiveRecord::Schema[7.1].define(version: 20_231_222_072_942) do
   enable_extension 'plpgsql'
 
   create_table 'users', force: :cascade do |t|
-    t.string 'usernam'
+    t.string 'username'
     t.string 'email'
     t.string 'password_digest'
     t.string 'password_confirmation'
